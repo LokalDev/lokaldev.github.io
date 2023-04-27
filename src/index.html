@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link href="index.css" rel="stylesheet" />
+    <title>Welcome to LokalFud.com</title>
+  </head>
+  <body>
+    <section class="landing flex justify-center items-center grid">
+      <div class="grid-cols-12 md:grid-cols-10 lg:grid-cols-8 xl:grid-cols-6">
+        <div class="flex flex-col items-center">
+          <img
+            class="logo mb-5"
+            src="/src/assets/logo.png"
+            alt="FudLokal Logo"
+          />
+          <h1 class="text-6xl font-bold mb-12">Paparating na!</h1>
+          <div class="flex flex-col items-center">
+            <small class="text-sm block mb-2">
+              Be notified by email as soon as we go live
+            </small>
+          </div>
+          <div class="w-full mx-auto">
+            <form onsubmit="saveEmail()">
+              <label
+                for="default-search"
+                class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-gray-300"
+                >Search</label
+              >
+              <div class="relative">
+                <input
+                  type="email"
+                  id="default-search"
+                  class="block p-4 w-full text-sm text-gray-700 bg-white-50 border border-white rounded-lg font-medium focus:outline-none"
+                  placeholder="Enter your email"
+                  required
+                />
+                <button
+                  type="submit"
+                  class="form-button text-white border border-white absolute bg-primary font-bold text-sm px-8 py-2 rounded-r-lg"
+                >
+                  Subscribe
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="index.js"></script>
+  </body>
+</html>

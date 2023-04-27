@@ -1,0 +1,18 @@
+.landing {
+  background-color: #f7941e;
+  color: white;
+  height: 100vh;
+}
+
+.logo {
+  width: 7rem;
+  height: 7rem;
+}
+
+.form-button {
+  background-color: #f7941e;
+  color: white;
+  top: 0;
+  right: 0;
+  height: 100%;
+}
