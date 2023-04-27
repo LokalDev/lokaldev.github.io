@@ -6,7 +6,7 @@ const saveEmail = () => {
     const content = {
       message: success
         ? "Salamat sa pag subscribe sa aming newsletter. Ikaw ay makaka asa na makaka kuha ng latest and updated events mula sa FudLokal. #SupportLokal!"
-        : "Sandaleeeee!",
+        : "Something went wrong!",
     };
     console.log(content.message);
   }
