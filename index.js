@@ -43,7 +43,7 @@ const showSuccessDialog = () => {
 <!--                    alt="Tiktok Logo"-->
 <!--                    />-->
 <!--                </a>-->
-                <a href="https://twitter.com/compose/tweet?text=Subscribe to http://lokaldev.com/ newsletter to gain an early access to the platform!" target="_blank">
+                <a href="https://twitter.com/compose/tweet?text=Subscribe to http://lokalfud.com/ newsletter to gain an early access to the platform!" target="_blank">
                     <img
                     class=""
                     src="assets/twitter.png"
