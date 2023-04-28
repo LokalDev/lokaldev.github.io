@@ -28,34 +28,35 @@ const showSuccessDialog = () => {
             </h4>
             <p class="text-md sm:text-lg lg:text-xl" style="margin: 2rem 0">One last request, Help us grow by sharing our website on <br> social media. Click the icons below to spread the word.</p>
             <div style="width: 100%; display: flex; justify-content: space-around;">
-                <a href="" target="_blank">
+                <a href="https://www.facebook.com/LokalFud-115925864815444/" target="_blank">
                     <img
                     class=""
                     src="assets/facebook.png"
                     alt="Facebook Logo"
+                    
                     />
                 </a>
-                <a href="" target="_blank">
-                    <img
-                    class=""
-                    src="assets/tiktok.png"
-                    alt="Tiktok Logo"
-                    />
-                </a>
-                <a href="" target="_blank">
+<!--                <a href="" target="_blank">-->
+<!--                    <img-->
+<!--                    class=""-->
+<!--                    src="assets/tiktok.png"-->
+<!--                    alt="Tiktok Logo"-->
+<!--                    />-->
+<!--                </a>-->
+                <a href="https://twitter.com/compose/tweet?text=Subscribe to http://lokaldev.com/ newsletter to gain an early access to the platform!" target="_blank">
                     <img
                     class=""
                     src="assets/twitter.png"
                     alt="Twitter Logo"
                     />
                 </a>
-                <a href="" target="_blank">
-                    <img
-                    class=""
-                    src="assets/pinterest.png"
-                    alt="Pinterest Logo"
-                    />
-                </a>
+<!--                <a href="" target="_blank">-->
+<!--                    <img-->
+<!--                    class=""-->
+<!--                    src="assets/pinterest.png"-->
+<!--                    alt="Pinterest Logo"-->
+<!--                    />-->
+<!--                </a>-->
             </div>
         </div>
       </div>
