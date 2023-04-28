@@ -9,17 +9,23 @@
   </head>
   <body>
     <section class="landing flex justify-center items-center grid">
-      <div class="grid-cols-12 md:grid-cols-10 lg:grid-cols-8 xl:grid-cols-6">
+      <div class="grid-cols-12 md:grid-cols-10 lg:grid-cols-8 xl:grid-cols-7">
         <div class="flex flex-col items-center">
-          <img class="logo mb-5" src="assets/logo.png" alt="FudLokal Logo" />
-          <h1 class="text-6xl font-bold mb-12">Paparating na!</h1>
+          <img
+            class="logo mb-5"
+            src="assets/logo-white.png"
+            alt="FudLokal Logo"
+          />
+          <h1 class="font-bold mb-12 text-4xl lg:text-5xl xl:text-6xl">
+            Paparating na!
+          </h1>
           <div class="flex flex-col items-center">
             <small class="text-sm block mb-2">
               Be notified by email as soon as we go live
             </small>
           </div>
           <div class="w-full mx-auto">
-            <form onsubmit="saveEmail()">
+            <form id="the-form">
               <label
                 for="default-search"
                 class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-gray-300"
@@ -37,7 +43,8 @@
                   type="submit"
                   class="form-button text-white border border-white absolute bg-primary font-bold text-sm px-8 py-2 rounded-r-lg"
                 >
-                  Subscribe
+                  <span class="block lg:hidden">OK</span>
+                  <span class="hidden lg:block">Subscribe</span>
                 </button>
               </div>
             </form>
@@ -46,6 +53,7 @@
       </div>
     </section>
 
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="index.js"></script>
   </body>
 </html>
